@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Bieżące Spotkania</title>
+</head>
+<body>
+	<h1> </h1>
+    <div class="container">
+        <ul class="meeting-list">
+            <li class="meeting-item">
+                <div>
+                    <span class="meeting-title">Event 1</span>
+                    <p class="meeting-time">12:00 PM - 1:00 PM</p>
+                </div>
+            </li>
+            <li class="meeting-item">
+                <div>
+                    <span class="meeting-title">Event 2</span>
+                    <p class="meeting-time">2:00 PM - 3:00 PM</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+	<h1></h1>
+</body>
+
+</html>
